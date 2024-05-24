@@ -1,0 +1,15 @@
+.Logo {
+    background-image: url("../../../resourses/label.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.Logo a {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}

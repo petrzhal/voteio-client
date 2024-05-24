@@ -1,0 +1,117 @@
+.home-page {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+    background: #69aa69;
+    user-select: none;
+    display: grid;
+    place-items: center;
+}
+
+.users-form {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 0 8px 0 gray;
+}
+
+.rate-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.user {
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.votings-form {
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-form {
+    width: 575px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center;
+    background-color: #fafbf5;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-bottom: 200px;
+    position: absolute;
+    right: 2%;
+    top: 100px;
+    transform: translateY(-50%);
+}
+
+.search-container {
+    display: grid;
+    grid-template-columns: 300px 150px 40px;
+    grid-template-rows: 100%;
+    align-content: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.search-input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.search-selector {
+    width: 150px;
+    font-size: 20px;
+}
+
+.search-button {
+    font-size: 20px;
+}
+
+.search {
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.element {
+    font-size: 30px;
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.element:hover {
+    background-color: #e9ffe6;
+}

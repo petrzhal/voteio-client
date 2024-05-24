@@ -1,0 +1,42 @@
+.NavigationLink {
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #000000;
+}
+
+.NavigationLink a {
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+
+.Active {
+    text-align: center;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+}
+
+.AuthLinks {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.AuthLinks a {
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
